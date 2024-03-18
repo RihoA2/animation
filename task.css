@@ -1,0 +1,68 @@
+body{
+    background-color: cornsilk;
+    color: rgb(9, 110, 110);
+    font-family: "Caveat" , cursive;
+    margin: 0 auto;
+
+ 
+}
+.ingredients{
+    border: 4px solid blue; border-radius: 25%;
+    margin: 0 auto; width: 35%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+.ingredients-tr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.ingredients-table{
+    border: 2px solid rgba(54, 54, 201, 0.876);
+    margin: 0 auto;
+    border-radius: 15%;
+    font-size: 1.5rem;
+    position: relative;
+    animation: tabel;
+    animation-duration: 3s;
+}
+@keyframes tabel{
+    0%{left: -500px;}
+    85%{left: 90px;}
+    100%{left: 0;}
+}
+
+.instructions{
+    border: 2px solid blueviolet;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10%;
+    position: relative;
+    animation: btn;
+    animation-duration: 4s;
+}
+@keyframes btn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.instructions-ol{
+    border: 1px solid blueviolet;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 15%;
+    font-size: 2rem;
+}
+.img2{
+    border-radius: 50%;
+    animation: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: rotate(3600deg);
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
